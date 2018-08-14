@@ -1,43 +1,73 @@
-<section>
-<a href="http://desafiolatam.com"><img src="http://blog.desafiolatam.com/wp-content/uploads/2015/03/logo_latam_mini.png" width="100" style="float:right"></a>
+# Deployment de Wordpress
 
-# Actividad Presencial 1 de Wordpress 3.
+Para la siguiente actividad, debes clonar este repositorio y trabajar leyendo atentamente las siguientes instrucciones:
 
-<https://github.com/DesafioLatam/Blearning-Frontend-E25CP1A1>
+Es importante que hayas visto toda la experiencia online para trabajar en esta actividad.
 
-Tiene un cliente que necesita un cambio de servidor. El webmaster anterior del sitio les envió los archivos y la base de datos del sitio.
+## Instrucciones
 
-El cliente está muy preocupado por su sitio debido a que no estaba funcionando bien y necesita una actualización de todos sus componentes.
+Un cliente necesita un cambio de servidor con urgencia, debido a que el sitio web no esta funcionando bien y necesita una actualización de todos sus componentes, además de mejorar la seguridad del sitio web
 
-Te dicen que no tienen presupuesto para mejorar el sitio ahora, pero que necesita un reporte técnico y un presupuesto con todas las mejoras necesarias. Algunos de los elementos que te pide considerar son: 
+El cliente te comenta que no tiene presupuesto para mejorar el sitio ahora, pero que necesita un reporte técnico y un presupuesto con todas las mejoras necesarias.
+
+ Algunos de los elementos que te pide considerar son:
 
 - Elementos del sitio actual que no funcionan bien
-- Agregar un blog de noticias en la página de inicio, 
+- Agregar un blog de noticias en la página de inicio
 - Cambiar el contenido de todo el sitio, por el que te va a enviar
-- Crear una página nueva con un portafolio con todos sus clientes, con filtro según industria a la que pertenecen. 
+- Crear una página nueva con un portafolio de todos sus clientes, con filtro según industria a la que pertenecen
 
-Lo que requieren de momento es mejorar la seguridad del sitio e instalarlo en el nuevo servidor. 
+Como último punto, cliente no menciona que el administrador anterior del sitio le envió los archivos y la base de datos para que alguien pudiera mejorar el sitio web.
 
-## Deployment de Wordpress
+## ¿Qué debes hacer?
 
-- Instale el sitio en su servidor
-- La contraseña del usuario no la tiene, debe generar una desde la Base de Datos
+- Instalar el sitio en el servidor local
 
-> HINT: Su cliente le dice que no sabe el usuario pero que encontró estas instrucciones en Internet, pero no logró entenderlas <https://www.webempresa.com/blog/cambiar-la-contrasena-de-administrador-en-wordpress.html>
+- Reparar la clave del sitio que perdió el cliente desde la Base de Datos
 
-- Genera un reporte en un archivo .pdf que contenga
-	- Detalle de todos los problemas del sitio (Tanto de frontend como de backend) que usted estima conveniente arreglar, qué archivos específicos tendría que intervenir y elementos que necesitaría agregar. 
-	- Descripción técnica del trabjo que significa realizar los cambios solicitados por el cliente.
-	- Tiempos de desarrollo
-	- Presupuesto itemizado
+  - > HINT: Su cliente le dice que no sabe el usuario pero que encontró estas instrucciones en Internet, pero no logró entenderlas [https://www.webempresa.com/blog/cambiar-la-contrasena-de-administrador-en-wordpress.html](https://www.webempresa.com/blog/cambiar-la-contrasena-de-administrador-en-wordpress.html)
 
->HINT: Se recomienda para este tipo de presupuestos calcular el tiempo estimado específico de cada arreglo y, a partir de eso, cobrar a partir las horas que se van a utilizar según la "Hora Hombre" que estime convenientes cobrar. Un desarrollador Wordpress Junior puede ganar desde 0.4UF-1UF/hora
+- Actualizar Wordpress y componentes
 
-- Realiza actualización de WP y componentes.
+  - > HINT: ¿Problemas al actualizar? Siempre hay que tener cuidado cuando se realiza una actualización de Wordpress cuando se trabaja con una plantilla, porque puede suceder que algunos componentes dejen de funcionar. Compartimos la versión actualizada de la plantilla para ver si se puede solucionar. En caso de no contar con la actualización de la plantilla hay que volver a la versión de Wordpress que se estaba utilizando.
 
->HINT: ¿Problemas al actualizar? Siempre hay que tener cuidado cuando se realiza una actualización de Wordpress cuando se trabaja con una plantilla, porque puede suceder que algunos componentes dejen de funcionar. Compartimos la versión actualizada de la plantilla para ver si se puede solucionar. En caso de no contar con la actualización de la plantilla hay que volver a la versión de Wordpress que se estaba utilizando. ¿Puedo volver atrás una actualización? ¿Cómo?
+- Agregar seguridad adicional al sitio web
 
-- Agregue seguridad adicional del sitio
-- Utilizando el plugin Duplicator migre al servidor final.
+- Hacer un deploy manual del sitio web
+
+- Revisar el rendimiento del sitio usando [GT Metrix](https://gtmetrix.com/)
+
+  - Tomar un screenshot del resultado
+
+- Optimizar el sitio usando plugins de Wordpress
+
+- Revisar nuevamente rendimiento del sitio usando [GT Metrix](https://gtmetrix.com/)
+
+  - Tomar un screenshot del resultado
+
+Al finalizar, genera un reporte en un archivo **readme.md** que contenga:
+
+- El detalle de todos los problemas del sitio *(tanto de frontend como de backend)* que estimes conveniente arreglar, además los archivos específicos que deberías intervenir y elementos que necesitarías agregar
+
+- Descripción técnica del trabajo que significa realizar los cambios solicitados por el cliente
+
+- Tiempos de desarrollo
+
+- Presupuesto itemizado
+
+  - > HINT: Se recomienda para este tipo de presupuestos calcular el tiempo estimado específico de cada arreglo y, a partir de eso, cobrar las horas que se van a utilizar según la "Hora Hombre" que estimes conveniente cobrar. Un desarrollador Wordpress Junior puede ganar desde 0.4 UF a 1UF por hora.
+
+- Mostrar los screnshots con el antes y después de la optimización del sitio web
+
+# Entrega desafío
+
+- Crea una carpeta que contenga:
+
+  - El archivo **README.md** con el reporte del sitio web
+  - La carpeta **wp-content** y la **[base de datos en formato `.sql`](https://cl.godaddy.com/help/exportar-mis-bases-de-datos-mysql-1487)**
+
+- Todos los archivos mencionados anteriormente deberán ser **versionados vía push en GitHub**, y luego subidos a la [plataforma empieza](http://empieza.desafiolatam.com/)
 
 
+
+  #### **¡Vamos con todo!**
