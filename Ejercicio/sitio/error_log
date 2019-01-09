@@ -1,0 +1,4 @@
+[06-Feb-2014 20:57:34] PHP Parse error:  syntax error, unexpected T_STRING in /home/tsted/public_html/wp-content/themes/executive/Pagina de Redireccion.php on line 15
+[06-Feb-2014 20:58:29] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/tsted/public_html/wp-content/themes/executive/Pagina de Redireccion.php on line 15
+[06-Feb-2014 20:59:10] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ')' in /home/tsted/public_html/wp-content/themes/executive/Pagina de Redireccion.php on line 15
+[06-Feb-2014 21:03:09] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/tsted/public_html/wp-content/themes/executive/Pagina de Redireccion.php on line 15

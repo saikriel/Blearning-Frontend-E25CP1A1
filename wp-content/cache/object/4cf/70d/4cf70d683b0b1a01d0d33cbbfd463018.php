@@ -1,0 +1,1 @@
+T06\<?php exit; ?>a:1:{s:7:"content";s:254:"a:3:{s:39:"underconstruction/underConstruction.php";s:30:"underConstructionPlugin_delete";s:27:"autoptimize/autoptimize.php";s:29:"autoptimizeMain::on_uninstall";s:45:"ewww-image-optimizer/ewww-image-optimizer.php";s:30:"ewww_image_optimizer_uninstall";}";}

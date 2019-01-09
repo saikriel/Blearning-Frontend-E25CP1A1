@@ -1,0 +1,2 @@
+[18-Nov-2015 16:14:52 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/tsted/public_html/wp-content/plugins/akismet/legacy.php on line 356
+[19-Dec-2015 03:04:09 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/tsted/public_html/wp-content/plugins/akismet/legacy.php on line 356

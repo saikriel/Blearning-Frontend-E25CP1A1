@@ -1,3 +1,37 @@
+#Resultado
+
+El sitio no tenía la contraseña de wp-admin para entrar. Se recuperó y cambió mediante PHPmyadmin.
+El sitio estaba cn una versión de php 5.6 lo que no permitía optimizar. Esto fue actualizado.
+
+
+- Descripción técnica del trabajo que significa realizar los cambios solicitados por el cliente
+
+1. Recuperar clave de bd
+2. Instalación en el nuevo servidor
+3. Optmización del sitio
+
+
+
+- Tiempos de desarrollo
+
+3 horas
+
+- Presupuesto itemizado
+
+Recuperar clave bd : 1UF
+Reinstalación del sitio: 2UF
+Optimización: 1 UF
+
+
+
+
+
+
+
+
+
+
+
 # Deployment de Wordpress
 
 Para la siguiente actividad, debes clonar este repositorio y trabajar leyendo atentamente las siguientes instrucciones:
